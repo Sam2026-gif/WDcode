@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+    margin: 30px;
+    background-color: #534b4b;
+}
+
+h2 {
+
+ color: #afb7ae;
+
+ border-color:#d34545;
+ border: width 10px;
+ border-style: ridge;
+ padding-top: 20px;
+ padding: block start 10px;
+ padding-left:200px;
+ padding-bottom: 20px;
+ background-color: azure;
+    }
+ 
+
+
+img { 
+
+    height:336px;
+    width: 300px;
+
+
+    }
+
+
+ p { 
+
+    color:cornsilk
+
+     }

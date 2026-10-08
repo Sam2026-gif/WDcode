@@ -1,0 +1,48 @@
+ 
+ 
+ 
+ 
+ 
+ body {
+    font-family: monospace;
+    margin: 50px;
+    background-color: #0b0000;
+}
+
+h1  {
+
+color: rgb(195, 195, 222);    
+}
+
+
+p {
+
+color: darkgray;
+font-size: 24px;
+  }
+
+ p { 
+border-style:double;
+border-width: 5px;
+border-color:azure;
+margin-top: 50px;
+margin: #d34545;
+}
+
+
+img {
+     height: 300px;
+     width: 600px;
+     border-color:#d34545;
+}
+
+
+a {
+
+
+    font-size:40px;
+
+
+
+
+    }
