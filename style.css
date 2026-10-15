@@ -2,7 +2,7 @@ body {
     font-family: Arial;
     margin: 30px;
     background-color: #534b4b;
-    background-image: url('https://wallpapercave.com/wp/wp7718758.jpg');
+    background-image: url('https://media.istockphoto.com/id/1281323504/photo/underground-sci-fi-concrete-cement-background-dark-reflective-showroom-parking-white-lights.jpg?b=1&s=612x612&w=0&k=20&c=VY9lojRK2SVPFFKMO5FyV6o3yBptnWL11EJa72OuB0A=');
     background-size: auto;
     background: no repeat;
     background-position: center;
@@ -31,7 +31,7 @@ img {
     border:3px;
     border-style:dashed;
     border-radius:double;
-    border-width: 15px;
+    border-width: 5px;
     }
 
 
@@ -41,11 +41,26 @@ img {
     
 
      }
+     
+
+    .cardescription {
+
+     color:rgb(45, 44, 41);
+     font-style:italic;
+     font-size:18 px;
+     border:double;
+     background-color:whitesmoke;
+     border-width:#afb7ae;
+
+     }
+    
+
+      
 
   ul { 
 
     color:white;
-    border-style:double;
+    border-style:single;
     background-color :rgb(158, 158, 192);
     border-width: 2px;
     border-color:#afb7ae
@@ -53,3 +68,39 @@ img {
 
 
      }
+    
+     address{
+
+         border: double;
+         background-color:#afb7ae;
+         padding-left:5px;
+         padding-bottom:5px;
+         padding-top:5px;
+         margin-bottom:5px;
+     }
+
+
+     a{
+
+
+        border: double;
+        border-color:#5d58bd;
+        background-color: whitesmoke;
+        padding-left:5px;
+        padding-right:5px;
+        margin-left:5px;
+        margin-right: 5px;
+        margin-bottom:10px;
+      }
+
+       details {
+         border: double;
+         background-color:#afb7ae;
+         padding-left:5px;
+         padding-bottom:5px;
+         padding-top:5px;
+         margin-bottom:5px;
+
+
+
+        }

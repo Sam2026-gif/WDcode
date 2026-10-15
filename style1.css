@@ -7,11 +7,22 @@
     font-family: monospace;
     margin: 50px;
     background-color: #795757;
+   
+    background-position:center;
+    background-size: auto;
+    background-image:url('https://media.istockphoto.com/id/2284485202/photo/3d-rendering-of-black-abstract-geometric-modern-dark-room-background-scene-for-advertising.jpg?s=612x612&w=0&k=20&c=SGyUI64JQjh_8b2S1hao1eDXGV0mh1GUwST1PJziews=');
 }
+
 
 h1  {
 
-color: rgb(195, 195, 222);    
+   color: rgb(195, 195, 222);  
+    color:white;
+    border-style:single;
+    background-color :rgb(158, 158, 192);
+    border-width: 2px;
+    border-color:#afb7ae
+     
 }
  img
  { 
@@ -41,6 +52,7 @@ padding-left: 20 px;
 img {
      height: 300px;
      width: 600px;
+    
 }
 
 
@@ -48,6 +60,22 @@ a {
 
 
     font: size 20erm;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border:double;
+    background-color: aliceblue;
 
     }
+
+adress{
+
+     
+    color:rgb(45, 44, 41);
+     font-style:italic;
+     font-size:18 px;
+     border:double;
+     background-color:whitesmoke;
+     border-width:#afb7ae;
+     
+
+
+ }
