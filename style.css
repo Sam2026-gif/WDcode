@@ -2,12 +2,16 @@ body {
     font-family: Arial;
     margin: 30px;
     background-color: #534b4b;
+    background-image: url('https://wallpapercave.com/wp/wp7718758.jpg');
+    background-size: auto;
+    background: no repeat;
+    background-position: center;
+    padding:2 px;
 }
 
 h2 {
 
  color: #afb7ae;
-
  border-color:#d34545;
  border: width 10px;
  border-style: ridge;
@@ -24,13 +28,28 @@ img {
 
     height:336px;
     width: 300px;
-
-
+    border:3px;
+    border-style:dashed;
+    border-radius:double;
+    border-width: 15px;
     }
 
 
  p { 
 
     color:cornsilk
+    
+
+     }
+
+  ul { 
+
+    color:white;
+    border-style:double;
+    background-color :rgb(158, 158, 192);
+    border-width: 2px;
+    border-color:#afb7ae
+    
+
 
      }
