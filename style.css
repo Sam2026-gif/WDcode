@@ -1,27 +1,47 @@
 body {
     font-family: Arial;
-    margin: 30px;
+    margin: 50px;
     background-color: #534b4b;
     background-image: url('https://media.istockphoto.com/id/1281323504/photo/underground-sci-fi-concrete-cement-background-dark-reflective-showroom-parking-white-lights.jpg?b=1&s=612x612&w=0&k=20&c=VY9lojRK2SVPFFKMO5FyV6o3yBptnWL11EJa72OuB0A=');
     background-size: auto;
     background: no repeat;
     background-position: center;
-    padding:2 px;
+    padding:10px;
 }
 
 h2 {
 
- color: #afb7ae;
- border-color:#d34545;
- border: width 10px;
+ color: #061e03;
+ border-color:#4d4242;
+ border: width 5px;
  border-style: ridge;
  padding-top: 20px;
  padding: block start 10px;
- padding-left:200px;
+ padding-left:100px;
  padding-bottom: 20px;
- background-color: azure;
+ background-color: rgb(222, 236, 236);
     }
- 
+ .animated-text {
+  font-size: 36px;
+  font-weight: bold;
+  color: #0e0f0f;
+  animation: textAnimation 4s ease infinite ;
+}
+
+.animated-text:hover{
+  animation-play-state: paused;
+}
+
+@keyframes textAnimation {
+  0%, 120% {
+    color: #0d402d;
+    transform: scale(1);
+  }
+  50% {
+    color: #8e374a;
+    transform: scale(1.1);
+  }
+}
 
 
 img { 
@@ -34,7 +54,10 @@ img {
     border-width: 5px;
     }
 
-
+ .carousel {
+    width: 600px;
+    margin: auto;
+ }
  p { 
 
     color:cornsilk

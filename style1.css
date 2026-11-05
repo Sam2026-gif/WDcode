@@ -54,7 +54,14 @@ img {
      width: 600px;
     
 }
+.zoom-image {
+    width: 200px;
+    transition: transform 0.3s ease;
+}
 
+.zoom-image:hover {
+    transform: scale(1.1);
+}
 
 a {
 
@@ -79,3 +86,17 @@ adress{
 
 
  }
+
+
+ button{
+  background-color: black;
+  width: 150px;
+  height: 100px;
+  font-size: 20px;
+  color: white;  
+}
+
+button:hover{
+  background-color:purple;
+  transition: 3s;
+}
